@@ -92,7 +92,7 @@ st.subheader("⏳ Threat Detection Timeline")
 
 # If dataset doesn't have time, create fake timeline
 if "timestamp" not in df.columns:
-    df["timestamp"] = pd.date_range(start="2024-01-01", periods=len(df), freq="T")
+    df["timestamp"] = pd.date_range(start="2024-01-01", periods=len(df), freq="min")
 
 timeline_df = pd.DataFrame({
     "timestamp": df["timestamp"].iloc[-len(preds):].values,
