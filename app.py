@@ -1,3 +1,4 @@
+import numpy as np
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -87,7 +88,7 @@ accuracy = accuracy_score(y_test, preds)
 # 🔹 TIMELINE (Simulated if no timestamp exists)
 st.subheader("⏳ Threat Detection Timeline")
 
-import numpy as np
+
 
 # If dataset doesn't have time, create fake timeline
 if "timestamp" not in df.columns:
@@ -116,6 +117,7 @@ col4.metric("Model Used", model_choice)
 # 🔹 GRAPH
 st.subheader("📊 Attack vs Normal Distribution")
 
+preds = list(preds)
 normal = preds.count(0)
 attack = preds.count(1)
 
