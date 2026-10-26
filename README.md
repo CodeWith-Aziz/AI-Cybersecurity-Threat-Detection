@@ -14,9 +14,9 @@ The system provides an **interactive dashboard using Streamlit**, where users ca
 
 Modern systems face increasing cyber threats such as:
 
-- Intrusion attacks  
-- Unauthorized access  
-- Anomalous network behavior  
+- Intrusion attacks
+- Unauthorized access
+- Anomalous network behavior
 
 Manual monitoring is inefficient and error-prone.  
 This project solves the problem by using **AI/ML models to automatically detect threats**.
@@ -25,17 +25,17 @@ This project solves the problem by using **AI/ML models to automatically detect 
 
 ## 🚀 Features
 
--  Machine Learning-based Threat Detection  
--  Supports Multiple Models:
-  - Random Forest (Supervised)
-  - Isolation Forest (Anomaly Detection)
--  Upload Custom Dataset (CSV)
--  Real-time Dashboard (Streamlit)
--  Threat Detection Timeline
--  Feature Importance Analysis
--  Confusion Matrix Visualization
--  Real-time Threat Alerts
--  Download Prediction Results
+- Machine Learning-based Threat Detection
+- Supports Multiple Models:
+- Random Forest (Supervised)
+- Isolation Forest (Anomaly Detection)
+- Upload Custom Dataset (CSV)
+- Real-time Dashboard (Streamlit)
+- Threat Detection Timeline
+- Feature Importance Analysis
+- Confusion Matrix Visualization
+- Real-time Threat Alerts
+- Download Prediction Results
 
 ---
 
@@ -50,7 +50,6 @@ This project solves the problem by using **AI/ML models to automatically detect 
 ---
 
 ## 🏗️ Project Structure
-
 
 ```
 AI-Powered-Cybersecurity/
@@ -73,8 +72,6 @@ AI-Powered-Cybersecurity/
 ├── requirements.txt
 └── README.md
 ```
-
-
 
 ## ▶️ How to Run
 
@@ -161,32 +158,31 @@ Displays warnings for detected threats 🚨
 
 
 ```
-![Dashboard](images/dashboard.jpeg)
----
 
-###  Attack vs Normal
+## ![Dashboard](images/dashboard.jpeg)
+
+### Attack vs Normal
+
 ![Attack vs Normal](images/Attack_vs_Normal.jpeg)
 
 ---
-###  Confusion Matrix
-![Confusion Matrix](images/confusion.jpeg)
----
 
-###  Threat Alerts
+### Confusion Matrix
+
+## ![Confusion Matrix](images/confusion.jpeg)
+
+### Threat Alerts
+
 ![Threat Alerts](images/Threats_alert.jpeg)
 
 ---
-###  Threat Timeline
+
+### Threat Timeline
+
 ![Timeline](images/Timeline.jpeg)
 
 ---
+
 ### Download Result
+
 ![Download Result](images/download_result.jpeg)
-
----
-👨‍💻 Author
-
-Sakshi Ramakabal Maurya B.Tech in Information Technology at K.j. Somaiya institute of technology
-
-
-
